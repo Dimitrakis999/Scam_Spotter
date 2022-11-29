@@ -1,0 +1,10 @@
+ipdb
+ipykernel
+matplotlib
+numpy
+pandas
+nbresult
+pygeohash
+pytest
+seaborn
+scikit-learn
