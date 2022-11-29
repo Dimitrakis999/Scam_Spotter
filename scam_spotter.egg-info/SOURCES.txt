@@ -1,0 +1,8 @@
+README.md
+setup.py
+scam_spotter.egg-info/PKG-INFO
+scam_spotter.egg-info/SOURCES.txt
+scam_spotter.egg-info/dependency_links.txt
+scam_spotter.egg-info/not-zip-safe
+scam_spotter.egg-info/requires.txt
+scam_spotter.egg-info/top_level.txt
