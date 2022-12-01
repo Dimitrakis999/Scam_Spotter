@@ -1,4 +1,17 @@
-.ipynb_checkpoints
-.python-version
+# Jupyter Notebooks
+.pytest_cache
+__pycache__
+*checkpoint.ipynb
+*.ipynb_checkpoints
+
+# Other stuff
+*.gz
+*PKG-INFO
+*.egg-info
+*.zip
+
+# IDE #
+*.vscode
+
+# Raw Data - this will be on GCP
 data
-*.egg
