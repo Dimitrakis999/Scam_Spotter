@@ -12,6 +12,3 @@ __pycache__
 
 # IDE #
 *.vscode
-
-# Raw Data - this will be on GCP
-data
