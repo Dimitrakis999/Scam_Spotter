@@ -9,6 +9,7 @@ __pycache__
 *PKG-INFO
 *.egg-info
 *.zip
+*Zone.Identifier
 
 # IDE #
 *.vscode
