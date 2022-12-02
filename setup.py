@@ -5,13 +5,13 @@ with open("requirements.txt") as f:
     content = f.readlines()
 requirements = [x.strip() for x in content if "git+" not in x]
 
-setup(name='scam-spotter',
+setup(name='scam_spotter',
       version="0.0.9",
-      description="TaxiFare Model (api_pred)",
+      description="Scam Spotter",
       license="MIT",
-      author="Le Wagon",
-      author_email="contact@lewagon.org",
-      url="https://github.com/lewagon/taxi-fare",
+      author="not Le Wagon",
+      author_email="not contact@lewagon.org",
+      url="https://github.com/Dimitrakis999/Scam_Spotter",
       install_requires=requirements,
       packages=find_packages(),
       test_suite="tests",
