@@ -3,6 +3,7 @@
 __pycache__
 *checkpoint.ipynb
 *.ipynb_checkpoints
+*/.ipynb_checkpoints
 
 # Other stuff
 *.gz
@@ -10,6 +11,7 @@ __pycache__
 *.egg-info
 *.zip
 *Zone.Identifier
+*.png
 
 # IDE #
 *.vscode
