@@ -9,7 +9,6 @@ __pycache__
 *.gz
 *PKG-INFO
 *.egg-info
-*.zip
 *Zone.Identifier
 *.png
 
