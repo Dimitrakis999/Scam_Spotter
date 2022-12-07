@@ -13,5 +13,7 @@ __pycache__
 *Zone.Identifier
 *.png
 
+.python-version
+
 # IDE #
 *.vscode
