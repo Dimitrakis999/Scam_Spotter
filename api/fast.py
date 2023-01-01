@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 
-#GET http://localhost:8000/predict?url='https://www.airgom-bruxelles.be/'
+#GET http://localhost:8000/predict?url='https://www.airgom-bruxelles.be/'&pass
 
 @app.get("/predict")
 def predict(url:str):
