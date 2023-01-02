@@ -35,9 +35,19 @@ pytest-asyncio
 nltk==3.7
 #transformers=
 wordcloud==1.8.2.2
+
+selenium==4.6.1
+webdriver-manager==3.8.5
 #sentencepiece
 #spacy
 #bertopic
 #hdbscan
 #umap-learn
 #sentence-transformers
+
+# Predict
+
+
+nltk==3.7
+gensim==4.2.0
+
