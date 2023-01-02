@@ -17,6 +17,7 @@ def clean (text):
     return lowercased
 
 
+# only usefull for the dual-boot model
 def get_photo_text(url, webdriver=False):
     if webdriver ==True:
         driver=webdriver.Chrome(PATH)
@@ -43,3 +44,20 @@ def get_photo_text(url, webdriver=False):
         image=Image.open('photo/{url}.png')
 
     return final_text , image
+
+#use for the nlp
+def scrape_text(url):
+
+    # Initialise webdriver
+    options = Options()
+    options.headless = True
+    options.add_argument("--start-maximized")
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+    driver.get(url)
+
+    # scrape text
+    scraped_text = driver.find_elements(by = "tag name", value = "body")
+    scraped_text = scraped_text[0].get_attribute("innerText")
+    scraped_text = clean(scraped_text)
+
+    return scraped_text
